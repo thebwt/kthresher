@@ -8,7 +8,7 @@ build:
     - echo "Finished deps install"
     #set up the upstream branch - has to be orphan so the git archive is pure.
     - git fetch -t
-    - git archive v1.2.2 -o ../kthresher_1.2.2.orig.tar.gz
+    - git archive 1.2.2 -o ../kthresher_1.2.2.orig.tar.gz
     #execute the build
     - debuild -us -uc
     - cd ..
