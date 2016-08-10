@@ -15,4 +15,4 @@ build:
     - scp -r ./*changes drop-point:/drop-point/holland//
     - scp -r ./*dsc drop-point:/drop-point/holland//
     - scp -r ./*build drop-point:/drop-point/holland//
-
+    - echo "What's your malfunction"
